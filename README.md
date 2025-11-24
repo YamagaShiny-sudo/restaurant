@@ -1,6 +1,5 @@
 # Restaurant
-Projet python pour créer un système de restauration du côté restaurateur et client
-
+Projet python pour créer un système de restauration du côté restaurateur et consommateur
 # Fil directeur
 
 ## 1. Création de base de plats proposés dans le restaurant.
