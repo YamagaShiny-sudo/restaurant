@@ -16,12 +16,9 @@ class FileCommandes:
     def est_vide(self):
         """Vérifie si la file est vide"""
         return len(self.commandes) == 0
-
-    def voir_prochaine(self):
-        """Regarde la prochaine commande sans la retirer"""
-        if not self.est_vide():
-            return self.commandes[0]
-        return None
+    
+    def longueur(self):
+        return len(self.commandes)
         
     def tout_afficher(self):
         return self.commandes
